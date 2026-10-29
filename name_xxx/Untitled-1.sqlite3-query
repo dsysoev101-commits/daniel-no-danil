@@ -1,0 +1,7 @@
+-- database: ./db.sqlite3
+
+-- Чтобы выполнить весь файл, нажмите кнопку ▷ в правом верхнем углу окна.
+
+
+CREATE TABLE movies(name TEXT, release_year INTEGER);
+INSERT INTO movies VALUES('Весёлые мелодии', 1930);
